@@ -14,13 +14,5 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class EmailFinderTest {
 
-  @Test
-  @DisplayName("Test Page Parser")
-  void testPageParser() {
-    String html = "<html><a href='/some/other/file.html'>my link</a></body></html>";
-    Document doc = Jsoup.parse(html);
-    PageParser test = new PageParser();
-    test.findLinks(doc);
-    assertEquals(null,doc.getElementById("my link"));
-  }
+
 }
