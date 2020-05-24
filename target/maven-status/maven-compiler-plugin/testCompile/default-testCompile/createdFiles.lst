@@ -2,3 +2,4 @@ edu\depaul\email\StorageServiceTest.class
 edu\depaul\email\PageCrawlerTest.class
 edu\depaul\email\PageParserTest.class
 edu\depaul\email\EmailFinderTest.class
+edu\depaul\email\ListWriterTest.class
