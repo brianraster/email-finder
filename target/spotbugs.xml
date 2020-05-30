@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<BugCollection version='4.0.3' threshold='low' effort='max'><file classname='edu.depaul.email.ListWriter'><BugInstance type='DM_DEFAULT_ENCODING' priority='High' category='I18N' message='Found reliance on default encoding in edu.depaul.email.ListWriter.writeList(Collection): String.getBytes()' lineNumber='27'/></file><Error></Error><Project><SrcDir>C:\Users\brian\GitHub_Repos\email-finder\src\main\java</SrcDir><SrcDir>C:\Users\brian\GitHub_Repos\email-finder\src\test\java</SrcDir></Project></BugCollection>

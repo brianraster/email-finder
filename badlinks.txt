@@ -1,0 +1,3 @@
+badlink.what
+horriblelink.who
+whatever.how

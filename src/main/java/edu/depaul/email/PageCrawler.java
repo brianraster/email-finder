@@ -35,9 +35,7 @@ public class PageCrawler {
     return goodLinks;
   }
 
-  public Set<String> getBadLinks() {
-    return badLinks;
-  }
+  public Set<String> getBadLinks() {return badLinks; }
 
   private Set<String> emails = new HashSet<>();
   private PageFetcher fetcher = new PageFetcher();

@@ -2,12 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fdcd26-4658-4424-a58c-9666d8ef8950" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/ListWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badlinks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/PageFetcherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test_c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test_d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test_e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/EmailFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/EmailFinder.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/EmailFinderException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/EmailFinderException.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/ListWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/ListWriter.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/PageCrawler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/PageCrawler.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/PageFetcher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/PageFetcher.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/PageParser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/PageParser.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/StorageService$StorageType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/StorageService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/StorageService.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/edu.depaul.email/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spotbugs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spotbugsXml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.depaul.email.EmailFinderTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.depaul.email.ListWriterTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.depaul.email.PageCrawlerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.depaul.email.PageParserTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.depaul.email.StorageServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.depaul.email.EmailFinderTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.depaul.email.ListWriterTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.depaul.email.PageCrawlerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.depaul.email.PageParserTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.depaul.email.StorageServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/depaul/email/PageCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/depaul/email/PageCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/depaul/email/EmailFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/EmailFinderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/depaul/email/PageCrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/PageCrawlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/depaul/email/PageParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/PageParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
@@ -22,9 +83,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Tag Library Descriptor" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,7 +112,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/Software Testing/Assignments/Assignment3/SE333-week3-next-date/SE333-week3-next-date/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/Software Testing/Week9/SOFTWARE TESTING - 2019-2020 Spring - 5272020 - 620 AM/SE333-template-mock-practice/SE333-template-mock-practice/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,40 +140,8 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PageCrawlerTest.testConstructorMaxEmails0">
-    <configuration name="EmailFinderTest.testOutFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="email-finder" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.depaul.email.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.depaul.email" />
-      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.EmailFinderTest" />
-      <option name="METHOD_NAME" value="testOutFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListWriterTest.testWriteList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="email-finder" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.depaul.email.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.depaul.email" />
-      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.ListWriterTest" />
-      <option name="METHOD_NAME" value="testWriteList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PageCrawlerTest.testConstructorMaxEmails0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PageFetcherTest.testGetHTTP">
+    <configuration name="PageCrawlerTest.testGetEmails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="email-finder" />
       <extension name="coverage">
         <pattern>
@@ -122,13 +151,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.depaul.email" />
       <option name="MAIN_CLASS_NAME" value="edu.depaul.email.PageCrawlerTest" />
-      <option name="METHOD_NAME" value="testConstructorMaxEmails0" />
+      <option name="METHOD_NAME" value="testGetEmails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageParserTest.testFindLinksNoLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PageCrawlerTest.testGetGoodLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="email-finder" />
       <extension name="coverage">
         <pattern>
@@ -137,14 +166,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.depaul.email" />
-      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.PageParserTest" />
-      <option name="METHOD_NAME" value="testFindLinksNoLinks" />
+      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.PageCrawlerTest" />
+      <option name="METHOD_NAME" value="testGetGoodLinks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageParserTest.testPageParserConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PageCrawlerTest.testInfiniteLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="email-finder" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +182,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.depaul.email" />
-      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.PageParserTest" />
-      <option name="METHOD_NAME" value="testPageParserConstructor" />
+      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.PageCrawlerTest" />
+      <option name="METHOD_NAME" value="testInfiniteLoop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageCrawlerTest.testMaximumEmails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="email-finder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.depaul.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.depaul.email" />
+      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.PageCrawlerTest" />
+      <option name="METHOD_NAME" value="testMaximumEmails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageFetcherTest.testGetHTTP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="email-finder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.depaul.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.depaul.email" />
+      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.PageFetcherTest" />
+      <option name="METHOD_NAME" value="testGetHTTP" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PageCrawlerTest.testConstructorMaxEmails0" />
-        <item itemvalue="JUnit.EmailFinderTest.testOutFile" />
-        <item itemvalue="JUnit.ListWriterTest.testWriteList" />
-        <item itemvalue="JUnit.PageParserTest.testFindLinksNoLinks" />
-        <item itemvalue="JUnit.PageParserTest.testPageParserConstructor" />
+        <item itemvalue="JUnit.PageFetcherTest.testGetHTTP" />
+        <item itemvalue="JUnit.PageCrawlerTest.testMaximumEmails" />
+        <item itemvalue="JUnit.PageCrawlerTest.testGetEmails" />
+        <item itemvalue="JUnit.PageCrawlerTest.testInfiniteLoop" />
+        <item itemvalue="JUnit.PageCrawlerTest.testGetGoodLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +265,10 @@
       <workItem from="1590018820150" duration="8460000" />
       <workItem from="1590070088194" duration="10801000" />
       <workItem from="1590319206018" duration="4008000" />
+      <workItem from="1590328589562" duration="546000" />
+      <workItem from="1590405705121" duration="1361000" />
+      <workItem from="1590490690781" duration="1971000" />
+      <workItem from="1590665239655" duration="7072000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit2&quot;">
       <created>1588991844548</created>
@@ -263,26 +328,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="777" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589799395593" />
-    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1590234731397">
+    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1590665267702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590234731397" />
-    <state width="723" height="233" key="GridCell.Tab.0.bottom" timestamp="1590323723093">
+    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590665267702" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1590841404522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590323723093" />
-    <state width="723" height="233" key="GridCell.Tab.0.center" timestamp="1590323723093">
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590841404522" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1590841404522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590323723093" />
-    <state width="723" height="233" key="GridCell.Tab.0.left" timestamp="1590323723093">
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590841404522" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1590841404522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590323723093" />
-    <state width="723" height="233" key="GridCell.Tab.0.right" timestamp="1590323723093">
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590841404522" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1590841404522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590323723093" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590841404522" />
     <state x="544" y="133" key="RollbackChangesDialog" timestamp="1589719240446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -299,10 +364,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589799343056" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1590322744400">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1590840585070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590322744400" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590840585070" />
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589771240128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
