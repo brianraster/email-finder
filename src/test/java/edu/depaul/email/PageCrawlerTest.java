@@ -92,9 +92,9 @@ public class PageCrawlerTest {
   @Timeout(10)
   @DisplayName("Tests for if an infinite loop will happen")
   void testInfiniteLoop() {
-    StorageService storage = mock(StorageService.class);
-    PageCrawler crawler = new PageCrawler(storage);
+    StorageService store = mock(StorageService.class);
+    PageCrawler crawl = new PageCrawler(store);
     String url = System.getProperty("user.dir") + "\\src\\test\\resources\\test_a.html";
-    crawler.crawl(url);
+    crawl.crawl(url);
   }
 }

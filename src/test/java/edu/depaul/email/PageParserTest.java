@@ -33,8 +33,8 @@ public class PageParserTest {
   void testFindLinks() {
     String html = "<html><a href='/some/other/file.html'>my link</a></body></html>";
     Document doc = Jsoup.parse(html);
-    PageParser test = new PageParser();
-    test.findLinks(doc);
+    PageParser p = new PageParser();
+    p.findLinks(doc);
     assertEquals(null,doc.getElementById("my link"));
   }
 
@@ -44,8 +44,8 @@ public class PageParserTest {
     String email = "my@email.com";
     String html = "<html><body>" + email + "</body></html>";
     Document doc = Jsoup.parse(html);
-    PageParser parser = new PageParser();
-    Collection<String> emails = parser.findEmails(doc);
+    PageParser p = new PageParser();
+    Collection<String> emails = p.findEmails(doc);
     assertEquals(1, emails.size());
   }
 }
